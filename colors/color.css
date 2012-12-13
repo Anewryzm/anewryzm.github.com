@@ -1,0 +1,87 @@
+body{background: #f5f5f5; font-size: 16px;}
+
+header h1{
+	color: #f5f5f5;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 10px #000;
+}
+
+h1{
+	animation: popo 5s infinite;
+	-webkit-animation: popo 5s infinite;
+	-moz-animation: popo 5s infinite;
+}
+
+@keyframes popo{
+	0%{text-shadow:2px 2px 10px #000;}
+	20%{text-shadow:2px 2px 10px #BC75E8;}
+	40%{text-shadow:2px 2px 10px #FF7B6B;}
+	60%{text-shadow:2px 2px 10px #54A7FF;}
+	80%{text-shadow:2px 2px 10px #CCCA26;}
+	100%{text-shadow:2px 2px 10px #000;}
+}
+@-webkit-keyframes popo{
+	0%{text-shadow:2px 2px 10px #000;}
+	20%{text-shadow:2px 2px 10px #BC75E8;}
+	40%{text-shadow:2px 2px 10px #FF7B6B;}
+	60%{text-shadow:2px 2px 10px #54A7FF;}
+	80%{text-shadow:2px 2px 10px #CCCA26;}
+	100%{text-shadow:2px 2px 10px #000;}
+}
+@-moz-keyframes popo{
+	0%{text-shadow:2px 2px 10px #000;}
+	20%{text-shadow:2px 2px 10px #BC75E8;}
+	40%{text-shadow:2px 2px 10px #FF7B6B;}
+	60%{text-shadow:2px 2px 10px #54A7FF;}
+	80%{text-shadow:2px 2px 10px #CCCA26;}
+	100%{text-shadow:2px 2px 10px #000;}
+}
+
+.cuadro{
+	box-shadow: 0px 0px 10px #000000;
+	border-radius:0.5em;
+	display: inline-block;
+	height: 80px;
+	margin:.3%;
+	transition: all 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	width: 80px;
+}
+
+.cuadro:hover{
+	transform: rotate(362deg) translate(10px);
+	-webkit-transform: rotate(362deg) translate(10px);
+	box-shadow: 5px 5px 20px #000;
+}
+
+#paleta{margin: 0 auto;}
+#paletas{margin-bottom: 20px;text-align: center;}
+
+/* PALETA #1 */
+#color1-paleta1{background: #FF6363;}
+#color2-paleta1{background: #217AB2;}
+#color3-paleta1{background: #49B9FF;}
+#color4-paleta1{background: #CCCA26;}
+#color5-paleta1{background: #B2B12A;}
+
+/* PALETA #2 */
+#color1-paleta2{background: #476399;}
+#color2-paleta2{background: #245DCC;}
+#color3-paleta2{background: #46E6FF;}
+#color4-paleta2{background: #FFAA86;}
+#color5-paleta2{background: #CC3D24;}
+
+/* PALETA #3 */
+#color1-paleta3{background: #FF3F3B;}
+#color2-paleta3{background: #76B6E5;}
+#color3-paleta3{background: #22A1FF;}
+#color4-paleta3{background: #CCCC95;}
+#color5-paleta3{background: #B2B263;}
+
+/* PALETA #4 */
+#color1-paleta4{background: #BC75E8;}
+#color2-paleta4{background: #FF7B6B;}
+#color3-paleta4{background: #54A7FF;}
+#color4-paleta4{background: #41E881;}
+#color5-paleta4{background: #F9FF4F;}
