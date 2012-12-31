@@ -37,7 +37,7 @@ header{
 }
 
 #logo div{
-	width: 55%;
+	width: 60%;
 }
 
 #logo img{
@@ -61,7 +61,7 @@ header{
 #menu{
 	font-size: 1.5em;
 	margin: 1% 2%;
-	width: 50%;
+	width: 45%;
 }
 
 #menu ul li{
@@ -110,6 +110,10 @@ header{
 	text-align: left;
 }
 
+#latest-news h2, #services h2, #twitter h2{
+  font-size: 2em;
+}
+
 #services img{
 	width: 80%;
 }
@@ -134,3 +138,87 @@ footer p, footer img{
 #latest-news article{
 	margin: 3% 0;
 }
+
+@media screen and (max-width: 800px){
+
+  #logo h1{
+    font-size: 2.5em;
+  }
+
+  #logo h2{
+    font-size: 1.5em;
+  }
+
+  #logo div{
+    width: 70%
+  }
+
+	#menu ul li{
+		display: list-item;
+    text-align: right;
+  }
+
+ }
+
+@media screen and (max-width: 650px){
+  #logo div{
+    width: 50%;
+  }
+
+  #logo h2{
+    font-size: 1.2em;
+  }
+
+  #logo, #menu{
+    display: block;
+    width: 92%;
+    text-align: center;
+  }
+
+  #menu ul li{
+    display: inline-block;
+  }
+  
+
+ }
+
+ @media screen and (max-width: 450px){
+  #menu{
+    width: 90%;
+  }
+
+  #menu ul li{
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  #home figure, #home article{
+    margin: 4% auto;
+    display: block;
+    width: 80%;
+  }
+
+  #latest-news, #services, #twitter{
+    display: block !important;
+    width: 90% !important;
+    text-align: left;
+    margin: 2% auto;
+  }
+
+  #logo img{
+    /*display: none;*/
+  }
+
+  #logo h2{
+    /*display: none;*/
+  }
+
+  #logo{
+    
+    text-align: left;
+  }
+
+
+
+ }
