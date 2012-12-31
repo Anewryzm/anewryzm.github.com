@@ -19,9 +19,11 @@ a:hover{
 }
 
 header{
+	box-shadow: inset 0 0 1.1em #000;
 	background: rgba(0,0,0,0.75);
 	padding: .5%;
 	color: #fff;
+	text-shadow: 0 0 .5em rgba(250,250,250,0.8);
 }
 
 #logo, #menu, #logo img, #logo div{
@@ -31,21 +33,55 @@ header{
 
 #logo{
 	margin: 1% 2%; 
+	width: 40%;
 }
 
 #logo div{
-	text-shadow: 0 0 .5em rgba(250,250,250,0.8);
+	width: 55%;
+}
+
+#logo img{
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	animation: oso 8s;
+	-webkit-animation: oso 5s;
+}
+
+@keyframes oso{
+	0%{transform: translate(20em);-webkit-transform: translate(20em);}
+	75%{transform: translate(-1em);-webkit-transform: translate(-1em);}
+	100%{transform: translate(0px);-webkit-transform: translate(0px);}
+}
+
+@-webkit-keyframes oso{
+	0%{transform: translate(20em);-webkit-transform: translate(20em);}
+	75%{transform: translate(-1em);-webkit-transform: translate(-1em);}
+	100%{transform: translate(0px);-webkit-transform: translate(0px);}
+}
+
+#logo img:hover{
+	transform: translate(10px);
+	-webkit-transform: translate(10px);
+}
+
+#logo h1, #logo h2{
+	text-align: right;
+}
+
+#logo h2{
+	font-size: 1em;
 }
 
 #menu{
 	font-size: 1.5em;
 	margin: 1% 2%;
+	width: 50%;
 }
 
 #menu ul li{
 	display: inline-block;
 	list-style: none;
-	margin: 0 ;
+	margin: 0 2%;
 }
 
 #home{
@@ -53,10 +89,17 @@ header{
 	text-align: center;
 }
 
+#home article h2{
+	font-size: 2.2em;
+}
+
 #home figure img{
 	border: .5em solid #fff;
 	border-radius: .5em;
 	margin: 0 auto;
+	transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+	box-shadow: .5em .5em 1em rgba(0,0,0,0.5);
 	width: 100%;
 }
 
@@ -87,9 +130,14 @@ header{
 
 footer{
 	background: rgba(0,0,0,0.75);
+	color: #fff;
 	text-align: right;
 	padding: 2% 0 0;
 	width: 100%;
+}
+
+footer p{
+	margin: 0 3%;
 }
 
 footer p, footer img{
