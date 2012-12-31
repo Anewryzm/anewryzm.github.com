@@ -43,20 +43,6 @@ header{
 #logo img{
 	transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
-	animation: oso 8s;
-	-webkit-animation: oso 5s;
-}
-
-@keyframes oso{
-	0%{transform: translate(20em);-webkit-transform: translate(20em);}
-	75%{transform: translate(-1em);-webkit-transform: translate(-1em);}
-	100%{transform: translate(0px);-webkit-transform: translate(0px);}
-}
-
-@-webkit-keyframes oso{
-	0%{transform: translate(20em);-webkit-transform: translate(20em);}
-	75%{transform: translate(-1em);-webkit-transform: translate(-1em);}
-	100%{transform: translate(0px);-webkit-transform: translate(0px);}
 }
 
 #logo img:hover{
