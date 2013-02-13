@@ -1,0 +1,84 @@
+/* Marsupialia
+Autor: Evan Matariel;
+@Anewryzm
+*/
+body{
+	font-size: 16px;
+	background: #abcd55;
+	font-family: 'Text Me One', sans-serif;
+}
+
+header{
+	height: 300px;
+	width: 100%;
+}
+
+section{
+	margin-bottom: 2%;
+	width: 100%;
+}
+
+header, section{
+	text-align: center;
+}
+
+article{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 32%;
+}
+
+article:hover{
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+img{
+	border: .5em solid #fff;
+	border-radius: 0.5em;
+	width: 93%;
+}
+
+img:hover{
+	opacity: 0.8;
+}
+
+h1{
+	color: #fff;
+	font-family: 'Snowburst One', cursive;
+	font-size: 8em;
+	margin: 5% 0 0;
+}
+
+img, article, h1, h2{
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+h1:hover{
+	font-size: 8.9em;
+}
+
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: 2px 2px .2em rgba(250,250,250,0.5);
+}
+
+h2:hover{
+	color: #fff;
+}
+
+h1,h2{
+	text-shadow: 2px 2px .2em rgba(0,0,0,0.5);
+}
+
+p{
+	font-size: 1.1em;
+}
+
+footer{
+	text-align: right;
+}
