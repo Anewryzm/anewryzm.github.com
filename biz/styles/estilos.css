@@ -1,5 +1,5 @@
 body{
-  background: #f3f3f3;
+  background: #abcd55;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -19,14 +19,14 @@ body{
 #slider{
   box-shadow: 0 2px 2.5em rgba(0,0,0,.6);
   background: url("../images/messi.png") no-repeat #abcd55;
-  background-size: 1008px 315px;
+  background-size: 100% 315px;
   text-align: center;
   box-shadow: inset 0 0 2em rgba(250,250,250,.5);
   height: 315px;
 }
 
 .blank{
-  width: 1008px;
+  width: 100%;
   background: #abcd55;
   text-align: center;
 }
@@ -98,6 +98,11 @@ section{
   width: 95%;
 }
 
+#main{
+  background: #fff;
+  padding-top: .5em;
+}
+
 #articulos{
   text-align: center;
 }
@@ -127,6 +132,10 @@ section{
 .titulo{
   margin: 0 auto;
   width: 95%;
+}
+
+.titulo h2{
+  margin-top: 0;
 }
 
 .img-article, .descripcion{
