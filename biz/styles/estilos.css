@@ -4,6 +4,8 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Text Me One', sans-serif;
+  width: 1008px;
+  margin: 0 auto;
 }
 
 ::selection{
@@ -16,7 +18,7 @@ body{
 
 #slider{
   box-shadow: 0 2px 2.5em rgba(0,0,0,.6);
-  background: url("../images/messi.png") no-repeat;
+  background: url("../images/messi.png") no-repeat #abcd55;
   background-size: 1008px 315px;
   text-align: center;
   box-shadow: inset 0 0 2em rgba(250,250,250,.5);
