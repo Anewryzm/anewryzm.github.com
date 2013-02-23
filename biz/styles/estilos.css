@@ -1,11 +1,14 @@
 body{
   background: #abcd55;
   font-size: 16px;
-  margin: 0;
-  padding: 0;
   font-family: 'Text Me One', sans-serif;
-  width: 1008px;
+  margin: 0;
+}
+
+#wrapper{
   margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
 }
 
 ::selection{
@@ -17,7 +20,6 @@ body{
 }
 
 #slider{
-  box-shadow: 0 2px 2.5em rgba(0,0,0,.6);
   background: url("../images/messi.png") no-repeat #abcd55;
   background-size: 100% 315px;
   text-align: center;
@@ -42,16 +44,23 @@ body{
   width: 200px;
 }
 
-iframe{
-  border: .6em solid rgba(250,250,250,.6);
+#player{
+  border: 10px solid rgba(250,250,250,.6);
   border-radius: .6em;
   -webkit-transform: translate(0,200px);
   transform: translate(0,200px);
   -webkit-transition: all .1s linear;
   transition: all .1s linear;
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+  -webki-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
 }
 
-iframe:hover{
+#player:hover{
   box-shadow: 0 0 2em rgba(0,0,0,.5);
 }
 
@@ -157,7 +166,4 @@ section{
   color: #ff7e49;
 }
 
-/*.orbit-wrapper{
-  border: .5em solid #fff;
-  border-radius: .5em;
-}*/
+@media screen and (max-width:1000px){#wrapper{width:auto}}
