@@ -76,6 +76,7 @@ clear: both;
   width: 100%;
   background: #abcd55;
   text-align: center;
+  height: 540px;
 }
 
 .blank img, .vacio{
