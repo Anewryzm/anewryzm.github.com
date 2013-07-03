@@ -1,0 +1,20 @@
+.btn{
+  width: 320px;
+  height: 120px;
+}
+
+.red{
+	background: rgba(250,0,0,.8);
+}
+
+.green{
+	background: rgba(0,190,0,.8)
+}
+
+.blue{
+	background: rgba(0,0,200,.8);
+}
+
+.black{
+	background: rgba(0,0,0,.8);
+}
