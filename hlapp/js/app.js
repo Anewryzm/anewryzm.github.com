@@ -6,3 +6,5 @@ $(function(){
     );
 
 })
+
+// $(location).attr("href","css/reset.css");

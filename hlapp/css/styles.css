@@ -1,10 +1,24 @@
+#wrap{
+  margin: 10em auto 0;
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+}
+
+#wrap section{
+  display: inline-block;
+  width: 49%;
+}
+
 .btn{
-  width: 320px;
-  height: 120px;
+  height: 125px;
+  margin: 0 auto 1.2em;
+  max-width: 320px;
+  width: 100%;
 }
 
 .red{
-	background: rgba(250,0,0,.8);
+	background: #f97474;
 }
 
 .green{
@@ -12,7 +26,7 @@
 }
 
 .blue{
-	background: rgba(0,0,200,.8);
+	background: #2E64FE;
 }
 
 .black{
