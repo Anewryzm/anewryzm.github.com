@@ -1,7 +1,9 @@
 $(function(){
   $(".btn").click(
     function(){
-      $(this).fadeOut();
+      var clickedSection = $(this).attr("id");
+      var url = "land/"+clickedSection + ".html"
+      $(location).attr("href", url)
     }
     );
 

@@ -7,26 +7,43 @@
 
 #wrap section{
   display: inline-block;
+  vertical-align: top;
   width: 49%;
 }
 
+h1, h2, h3, h4 {
+  font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-weight: 700;
+}
+
+
 .btn{
+  border-radius: 0.5em;
+  box-shadow: 0 0 1.2em rgba(0,0,0,.5);
+  color: #fff;
   height: 125px;
   margin: 0 auto 1.2em;
   max-width: 320px;
+  padding: 10px;
   width: 100%;
 }
 
+.btn h2{
+  padding-top: 50px;
+  font-size: 1.5em;
+  text-shadow: 2px 2px .5em rgba(0,0,0,.4);
+}
+
 .red{
-	background: #f97474;
+	background: rgba(255,52,57,.9);
 }
 
 .green{
-	background: rgba(0,190,0,.8)
+	background: rgba(46,209,104,.8)
 }
 
 .blue{
-	background: #2E64FE;
+	background: rgb(33,100,232);
 }
 
 .black{
