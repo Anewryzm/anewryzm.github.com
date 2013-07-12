@@ -16,6 +16,9 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+::selection{
+  background: rgba(255,51,135,.8);
+}
 
 .btn{
   border-radius: 0.5em;

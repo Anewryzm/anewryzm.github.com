@@ -1,0 +1,53 @@
+#page{
+	color: rgba(0,0,0,.7);
+	margin: 3.9em auto 1em;
+	max-width: 700px;
+	width: 100%;
+}
+
+#page h1{
+	font-size: 52px;
+	margin-bottom: .5em;
+
+}
+
+#page img{
+	width: 100%;
+}
+
+#post-content{
+	font-size: 22px;
+	font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+	font-weight: 400;
+	line-height: 1.45;
+}
+
+#post-content h2{
+	font-size: 1.4em;
+	margin: .5em 0 .2em
+}
+
+#post-content p{
+	margin-bottom: .8em;
+}
+
+#back{
+	background: rgba(255,52,57,.9);
+	border-radius: .5em;
+	font-size: 20px;
+	margin-bottom: 15px;
+	padding: 8px;
+	width: 150px;
+	text-align: center;
+	box-shadow: 0 0 1.2em rgba(0,0,0,.5);
+  	color: #fff;
+}
+
+.hl{
+	border-radius: .5em;
+	background: rgba(255,83,13,.6);
+	color: #fff;
+	padding: 2px 8px;
+	text-align: center;
+	text-shadow: 0 0 4px rgba(0,0,0,.4);
+}
