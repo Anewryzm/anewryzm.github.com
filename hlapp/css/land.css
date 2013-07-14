@@ -1,3 +1,28 @@
+#contact{
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	box-shadow: 0 2px .5em rgba(0,0,0,.6);
+	max-width: 4096px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+#contact h2, #contact ul{
+	display: inline-block;
+}
+
+#contact ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
 #page{
 	color: rgba(0,0,0,.7);
 	margin: 3.9em auto 1em;
@@ -12,6 +37,7 @@
 }
 
 #page img{
+	max-width: 700px;
 	width: 100%;
 }
 
