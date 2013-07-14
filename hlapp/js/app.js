@@ -10,10 +10,7 @@ $(function(){
 
   $("#back").click(
 	function(){
-		$("#page").fadeOut(function(){
- 		$(location).attr("href", root)
-			
-		});
+		$(location).attr("href", root)
 		}
 	)
 

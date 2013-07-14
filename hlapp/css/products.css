@@ -21,4 +21,5 @@
 #page h2.hl{
 	width: 200px;
   font-size: 1.6em;
+  box-shadow: 1px 5px 0 rgba(220,70,5,.8);
 }
