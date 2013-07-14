@@ -41,6 +41,21 @@
 	width: 100%;
 }
 
+#show-products{
+	text-align: center;
+	width: 100%;
+	font-size: 1.3em;
+	margin-top: 5px;
+	color: #fff;
+}
+
+#show-products li{
+	display: inline-block;
+	margin: 0 20px;
+	padding: 8px;
+	border-radius: .5em
+}
+
 #post-content{
 	font-size: 22px;
 	font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;

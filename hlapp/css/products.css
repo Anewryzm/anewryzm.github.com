@@ -1,0 +1,24 @@
+#page{
+  margin-top: 1.8em;
+}
+
+#page img{
+	max-width: 375px;
+}
+
+#page article{
+	width: 310px;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400
+}
+
+#page img, #page article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#page h2.hl{
+	width: 200px;
+  font-size: 1.6em;
+}

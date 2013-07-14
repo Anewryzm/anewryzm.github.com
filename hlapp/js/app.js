@@ -17,6 +17,15 @@ $(function(){
 		}
 	)
 
+  $("#show-products li").click(
+    function(){
+      var clickedProduct = $(this).attr("id");
+      var url = "../p/"+clickedProduct+".html";
+      // alert(url);
+      $(location).attr("href", url);
+    }
+    )
+
 })
 
 // $(location).attr("href","css/reset.css");
