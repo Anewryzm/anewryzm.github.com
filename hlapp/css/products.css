@@ -23,3 +23,7 @@
   font-size: 1.6em;
   box-shadow: 1px 5px 0 rgba(220,70,5,.8);
 }
+
+#page .info{
+  font-weight: 600
+}
